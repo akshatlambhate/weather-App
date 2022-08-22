@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> ![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="heading">
+            <h1>WeatherNitro</h1>
+        </div>
+        <div class="entervalues">
+            <div class="city">
+            <h2>Enter your city name</h2>
+            </div>
+            <div class="inputfield">
+               <div><form>
+                 <input type="text" class="Entercityname" id="abc"></div>
+                <div><button class="submitbtn" type="submit"><i class="fa-solid fa-location-arrow"></i></button></div>
+                </form>
+            </div>
+            <div class="midtext">Or</div>
+            <div class="currentlocation">
+              <button class="locationbutton">Choose from Current location</button>
+            </div>
+        </div>
+
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!-- <div class="location">
+        <div><h2 class="timezone"> timezone</h2>
+         </div> 
+        <div class="logo">logo</div>
+    </div>
+        <div class="temperature">
+         <div class="degree-section">
+           <P class="degree">45</P><span>F</span>
+         </div>
+         <div class="temp-description">
+            <p class="description">its freakin hot</p>
+         </div>
+        </div> -->
+
+        <div class="weather">
+            <div class="div1">
+                <div class="Cityname">city</div>
+                <div class="weathericon"><img src="rain-weather-svgrepo-com.svg" class="weathericon"></div>
+            </div>
+            <div class="div2">
+                <div class="temp"> <div class="tempvalue">0</div><span>C</span></div>
+                <div class="maxtemp"><div class="maxthead">Max-Temp</div><div class="maxtempvalue">0<span>C</span></div></div>
+                <div class="mintemp"> <div class="minthead">Min-Temp</div><div class="mintempvalue">0<span>C</span></div></div>
+            </div>
+            <div class="div3">
+                <div class="humidity"><div class="humidityheading">Humidity</div><div class="humidityvalue">000</div></div>
+                <div class="latitude"><div class="latitudeheading">Latitide</div><div class="latvalue">0000</div></div>
+                <div class="longitude"><div class="longitudeheading">Longitude</div><div class="longvalue">0000</div></div>
+            </div>
+            <div class="div4">
+                <div class="pressure"><div class="pressureheading">Pressure</div><div class="pressurevalue">000</div></div>
+                <div class="windspeed"><div class="windspeedheading">windspeed</div><div class="windspeedvalue">0000</div></div>
+    
+            </div>
+
+            
+        </div>
+
+        <script src="app.js" async defer></script>
+    </body>
+</html>

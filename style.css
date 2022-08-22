@@ -1,0 +1,215 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+     justify-content: center;
+     align-items: center; 
+     background-image: linear-gradient(#90e0ef,#0096c7);
+
+}
+.heading {
+    padding: 1em;
+    text-align: center;
+    letter-spacing: 0.3em;
+}
+.entervalues {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.city {
+    padding: 1em;
+    font-size: 1.2em;
+
+}
+.submitbtn {
+    padding: 0.1em 0.5em;
+    font-size: 2em;
+    box-sizing: border-box;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+   
+}
+.midtext {
+    padding: 0.5em;
+}
+.inputfield {
+    padding: 1em;
+    display: flex;
+    text-align: center;
+}
+.Entercityname {
+    padding: 1em 4em;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5 rem;
+    box-shadow: 1px 1px 5px  rgb(54, 54, 54);
+}
+.Entercityname:focus {
+    outline: none;
+}
+.locationbutton {
+    padding:  0.8em 1em;
+    font-size: 1.1rem;
+    background-color: rgba(17, 0, 255, 0.829);
+     cursor: pointer;
+     color: white;
+     border: none;
+     border-radius: 4px;
+     box-shadow: 1px 1px 5px  rgb(54, 54, 54);
+
+}
+.locationbutton:hover {
+    background-color:rgba(21, 159, 159, 0.847); 
+}
+.temperature ,.location {
+    display: flex;
+    height: 30vh;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+.temperature {
+    flex-direction: column;
+}
+.degree-section {
+    display: flex;
+}
+
+.weather {
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    border: 1px solid black;
+    box-shadow: 1px 5px 10px 6px rgba(46, 46, 46, 0.801);
+
+}
+.div1 {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.weathericon {
+    width: 7em;
+    padding: 1em;
+    margin-right: 3rem;
+}
+.Cityname {
+    font-size: 3rem;
+     padding: 1em;
+     text-shadow: 1px 2px 2px 1px rgb(247, 247, 247);
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-around;
+} 
+
+.temp {
+    font-size: 4rem;
+     display: flex;
+
+    
+}
+.temp span {
+    padding: 0.1em;
+    font-size: 1.5rem;
+   
+}
+.maxtemp {
+     margin-top: 0.2em;
+    font-size: 1.3rem;
+    text-align: center;
+    
+}
+.maxtempvalue {
+    font-size: 1.4rem;
+    margin-top: 0.5em;
+    font-weight: 700;
+}
+.mintemp { 
+    margin-top: 0.2em;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.mintempvalue {
+    font-size: 1.4rem;
+    margin-top: 0.5em;
+    font-weight: 700;
+}
+.div3 {
+    display: flex;
+    justify-content: space-around;
+   
+}
+.humidity {
+    margin-top: 0.2em;
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+.humidityvalue {
+    font-size: 1.4rem;
+    margin-top: 0.5em;
+    font-weight: 700;
+}
+.latitude {
+    margin-top: 0.2em;
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+.latvalue {
+    font-size: 1.4rem;
+    margin-top: 0.5em;
+    font-weight: 700;
+}
+.longitude {
+    margin-top: 0.2em;
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+.longvalue {
+    font-size: 1.4rem;
+    margin-top: 0.5em;
+    font-weight: 700;
+}
+
+.div4 {
+    display: flex;
+    justify-content: space-around;
+   
+}
+.pressure {
+    margin-top: 0.2em;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.pressurevalue {
+    font-size: 1.4rem;
+    margin-top: 0.5em;
+    font-weight: 700;
+}
+.windspeed {
+    margin-top: 0.2em;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.windspeedvalue {
+    font-size: 1.4rem;
+    margin-top: 0.5em;
+    font-weight: 700;
+}
